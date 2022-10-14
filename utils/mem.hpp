@@ -59,6 +59,12 @@ public:
 		: m_pid(pid), m_handle(OpenProcess(PROCESS_ALL_ACCESS, false, pid)) {}
 	process(HANDLE h)
 		: m_handle(h), m_pid(GetProcessId(h)) {}
+	
+	~process()
+	{
+		if (m_handle)
+			CloseHandle(m_handle);
+	}
 
 	template <class t>
 	inline t read(std::uintptr_t addr) const
@@ -103,4 +109,6 @@ public:
 		CloseHandle(snapshot);
 		return result;
 	}
+	
+
 };
