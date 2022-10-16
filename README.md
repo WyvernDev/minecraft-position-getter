@@ -1,4 +1,4 @@
-![alt text](https://wyvern.loves-femboys.club/SP5Mhc5t)
+![alt text](https://wyvern.loves-femboys.club/SP5Mhc5t](https://cdn.upload.systems/uploads/SP5Mhc5t.png))
 
 # PREFACE
 I've recently decided to get into MCBE hacking, whipped this up after I played around with MCBE in CE. Consider this a POC.
